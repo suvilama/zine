@@ -1,0 +1,401 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    
+  }
+
+  
+
+.hero {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    overflow: hidden;
+    position: relative;
+    padding: 0px 0px 0px 0px;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 0;
+    border-radius: 0px 0px 0px 0px;
+    font-family: 'Silkscreen', cursive;
+  }
+
+  .content {
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: 1000px;
+    height: min-content; /* 410px */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 100px 100px 100px;
+    background-color: #ff99c8;
+    max-width: 1000px;
+    overflow: visible;
+    position: relative;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 50;
+    border-radius: 0px 0px 0px 0px;
+    border: 10px solid #D0F4DE;
+  }
+
+  .zinetastic_ {
+    flex-shrink: 0;
+    width: 100%;
+    height: auto; /* 130px */
+    white-space: pre;
+    max-width: 800px;
+    overflow: visible;
+    position: relative;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Silkscreen", sans-serif;
+    color: #ffffff;
+    font-size: 120px;
+    letter-spacing: 0em;
+    line-height: 1.1em;
+    text-align: center;
+  }
+
+  .suvi-s-monthly-zine-explosion {
+    flex-shrink: 0;
+    width: 100%;
+    height: auto; /* 30px */
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow: visible;
+    position: relative;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Spline Sans Mono", monospace;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: -0.05em;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .text {
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: 100%;
+    height: min-content; /* 448px */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 120px;
+    background-color: #ff99c8;
+    overflow: hidden;
+    position: relative;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 0;
+    border-radius: 0px 0px 0px 0px;
+  }
+
+  .dive-into-suvi-s-zine-world {
+    flex-shrink: 0;
+    width: 100%;
+    height: auto; /* 58px */
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow: visible;
+    position: relative;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Silkscreen", sans-serif;
+    color: #000000;
+    font-size: 48px;
+    letter-spacing: 0em;
+    line-height: 1.2;
+    text-align: left;
+  }
+
+  .full{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .suvi-s{
+    flex-shrink: 0;
+    width: 50%;
+    height: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow: visible;
+    position: relative;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Spline Sans Mono", monospace;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0em;
+    line-height: 1.5em;
+    text-align: left;
+  }
+ 
+  .be-mesmerized{
+    flex-shrink: 0;
+    width: 50%;
+    height: auto;
+    overflow: visible;
+    position: relative;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Spline Sans Mono", monospace;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0em;
+    line-height: 1.5em;
+    text-align: left;
+  }
+
+  .metrics {
+    display: flex;
+    width: 100%;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: -100px;
+    height: min-content;
+    background-color: #ff99c8;
+    overflow: hidden;
+    position: relative;
+    gap: 20px;
+   
+  }
+
+  .card {
+    flex: 50%;
+    height: 400px;
+    background-color: #ff80bb;
+    overflow: visible;
+    position: relative;
+    text-align: center;
+    flex-wrap: nowrap;
+  }
+
+  .metrics h1{
+    position: relative;
+      padding-top: 55px;
+      font-size: 140px;
+      letter-spacing: 0em;
+      text-align: center;
+  }
+
+  .metrics h2{
+      padding-top: 40px;
+      overflow: visible;
+      position: relative;
+      font-weight: 400;
+      font-style: normal;
+      font-family: "Silkscreen", sans-serif;
+      color: #000000;
+      font-size: 48px;
+      letter-spacing: 0em;
+      line-height: 1.2;
+      text-align: center;
+  }
+  .metrics p{
+    overflow: visible;
+    position: relative;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Spline Sans Mono", monospace;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: -0.025em;
+    line-height: 1.6em;
+    text-align: center;
+  }
+
+  .call-to-action {
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: 100%;
+    height: min-content; /* 638px */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 100px 100px 100px;
+    background-color: #ff99c8;
+    overflow: visible;
+    position: relative;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 40;
+    border-radius: 0px 0px 0px 0px;
+  }
+
+  .wrapper {
+    flex-shrink: 0;
+    width: 100%;
+    height: min-content; /* 438px */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 1000px;
+    overflow: hidden;
+    position: relative;
+    padding: 0px 0px 0px 0px;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 40;
+    border-radius: 0px 0px 0px 0px;
+  }
+
+  .ready{
+      flex-shrink: 0;
+      width: 800px;
+      height: auto; /* 115px */
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      word-break: break-word;
+      max-width: 100%;
+      overflow: visible;
+      position: relative;
+      font-weight: 400;
+      font-style: normal;
+      font-family: "Silkscreen", sans-serif;
+      color: #000000;
+      font-size: 48px;
+      letter-spacing: 0em;
+      line-height: 1.2;
+      text-align: center;
+      padding-bottom: 50px;
+      padding-top: 120px;
+  }
+
+  .but-whole{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .but1{
+      width: min-content; /* 131px */
+      height: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 15px 15px 15px 15px;
+      background-color: #000000;
+      overflow: visible;
+      position: relative;
+      align-content: center;
+      flex-wrap: nowrap;
+      
+  }
+
+.but1 p{
+    flex-shrink: 0;
+    width: auto; /* 101px */
+    height: auto; /* 16px */
+    white-space: pre;
+    position: relative;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Spline Sans Mono", monospace;
+    color: #a9def9;
+    font-size: 14px;
+    letter-spacing: 0em;
+    line-height: 1.2;
+    text-align: center;
+  
+}
+
+  .but2{
+      width: min-content; /* 106px */
+      height: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 15px 15px 15px 15px;
+      background-color: #fcf6bd;
+      overflow: visible;
+      position: relative;
+      align-content: center;
+      flex-wrap: nowrap;
+      gap: 10;
+      border-radius: 0px 0px 0px 0px;
+  }
+
+  .but2 p{
+      flex-shrink: 0;
+      width: auto; /* 76px */
+      height: auto; /* 16px */
+      white-space: pre;
+      position: relative;
+      font-weight: 700;
+      font-style: normal;
+      font-family: "Spline Sans Mono", monospace;
+      color: #000000;
+      font-size: 14px;
+      letter-spacing: 0em;
+      line-height: 1.2;
+      text-align: center;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .footer {
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: 100%;
+    height: min-content; /* 232px */
+    padding: 100px 100px 100px 100px;
+    background-color: #ff99c8;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .copy-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .monthly-zine{
+      flex-shrink: 0;
+      width: auto; /* 250px */
+      height: auto; /* 24px */
+      white-space: pre;
+      overflow: visible;
+      position: relative;
+      font-weight: 400;
+      font-style: normal;
+      font-family: "Spline Sans Mono", monospace;
+      color: #000000;
+      font-size: 20px;
+      letter-spacing: 0em;
+      line-height: 1.5;
+      text-align: left;
+  }
+
+  .icons {
+    width: min-content; /* 188px */
+    height: min-content; /* 32px */
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    letter-spacing: 30px;
+    position: relative;
+    font-size: 30px;
+  }
